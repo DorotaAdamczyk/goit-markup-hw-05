@@ -302,6 +302,7 @@ footer {
   cursor: pointer;
   border-radius: 4px;
   padding: 6px 22px;
+  transition-property: background-color, color;
 }
 .button-order {
   border: none;
@@ -337,6 +338,7 @@ button {
   display: flex;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill, color;
 }
 .color-change:hover,
 .color-change:focus.color-change::after {
@@ -522,7 +524,7 @@ figure {
   fill: #ffffff;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: fill, border-color;
+  transition-property: fill, background-color;
 }
 
 .socials:hover,
@@ -539,7 +541,7 @@ figure {
   align-items: center;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: fill, border-color;
+  transition-property: fill, background-color;
 }
 .socials1:hover,
 .socials1:focus {
@@ -743,10 +745,9 @@ figure {
   scale: 1;
   opacity: 1;
   visibility: visible;
-  transition-property: scale, opacity, visability;
+  transition-property: opacity, visability;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: fill, border-color;
 }
 .modal {
   position: absolute;
@@ -787,7 +788,7 @@ figure {
 }
 .icon-send {
   fill: #ffffff;
-  margin-left: 24.71;
+  margin-left: 24.71px;
 }
 .icon-Vector {
   fill: #000000;
